@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\core_asp.net.csproj": {}
+    "d:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\core_asp.net.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\core_asp.net.csproj": {
+    "d:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\core_asp.net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\core_asp.net.csproj",
+        "projectUniqueName": "d:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\core_asp.net.csproj",
         "projectName": "core_asp.net",
-        "projectPath": "D:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\core_asp.net.csproj",
+        "projectPath": "d:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\core_asp.net.csproj",
         "packagesPath": "C:\\Users\\90552\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\obj\\",
+        "outputPath": "d:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\90552\\AppData\\Roaming\\NuGet\\NuGet.Config"
