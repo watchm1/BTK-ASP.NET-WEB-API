@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "d:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\obj\\Debug\\net7.0\\project.razor.json",
-  "FilePath": "d:\\Projects\\BTK-ASP.NET-WEB-API\\core_asp.net\\core_asp.net.csproj",
+  "SerializedFilePath": "d:\\Projects\\BTK-ASP.NET-WEB-API\\ProductApp\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "d:\\Projects\\BTK-ASP.NET-WEB-API\\ProductApp\\ProductApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0",
@@ -18642,7 +18642,7 @@
     ],
     "CSharpLanguageVersion": 1100
   },
-  "RootNamespace": "core_asp.net",
+  "RootNamespace": "ProductApp",
   "Documents": [],
   "SerializationFormat": "0.3"
 }
