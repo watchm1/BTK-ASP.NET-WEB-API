@@ -1,0 +1,17 @@
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/bin/Debug/net6.0/Repositories.deps.json
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/bin/Debug/net6.0/Repositories.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/bin/Debug/net6.0/ref/Repositories.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/bin/Debug/net6.0/Repositories.pdb
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/bin/Debug/net6.0/Entities.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/bin/Debug/net6.0/Entities.pdb
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/obj/Debug/net6.0/Repositories.csproj.AssemblyReference.cache
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/obj/Debug/net6.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/obj/Debug/net6.0/Repositories.AssemblyInfoInputs.cache
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/obj/Debug/net6.0/Repositories.AssemblyInfo.cs
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/obj/Debug/net6.0/Repositories.csproj.CoreCompileInputs.cache
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/obj/Debug/net6.0/Repositories.csproj.CopyComplete
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/obj/Debug/net6.0/Repositories.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/obj/Debug/net6.0/ref/Repositories.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/obj/Debug/net6.0/Repositories.pdb
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/bin/Debug/net6.0/Repositories.runtimeconfig.json
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/obj/Debug/net6.0/Repositories.genruntimeconfig.cache
