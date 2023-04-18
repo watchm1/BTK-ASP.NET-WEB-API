@@ -57,3 +57,8 @@
 /home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/System.Text.Encodings.Web.dll
 /home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/System.Text.Json.dll
 /home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/Presentation.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/Presentation.pdb
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/nlog.config
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/NLog.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/NLog.Extensions.Logging.dll

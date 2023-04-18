@@ -1,0 +1,11 @@
+2023-04-19 01:10:52.8880 Info Message Template Auto Format enabled
+2023-04-19 01:10:52.8904 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-19 01:10:52.8935 Info Closing old configuration.
+2023-04-19 01:10:52.9131 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/nlog.config
+2023-04-19 01:11:01.6750 Info AppDomain Shutting down. LogFactory closing...
+2023-04-19 01:11:01.6774 Info LogFactory has been closed.
+2023-04-19 01:11:16.0989 Info Message Template Auto Format enabled
+2023-04-19 01:11:16.2007 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-19 01:11:16.2525 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/nlog.config
+2023-04-19 01:13:32.4936 Info AppDomain Shutting down. LogFactory closing...
+2023-04-19 01:13:32.5091 Info LogFactory has been closed.

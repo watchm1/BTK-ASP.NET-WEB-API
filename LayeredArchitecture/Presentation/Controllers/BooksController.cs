@@ -1,13 +1,12 @@
 using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using Repositories.Contracts;
-using Repositories.EFCore;
 using Services.Contracts;
 
-namespace WebApi.Controllers;
-[Route("api/books")]
+namespace Presentation.Controllers;
+
 [ApiController]
+[Route("api/books")]
 public class BooksController : ControllerBase
 {
     private readonly IServiceManager _manager;

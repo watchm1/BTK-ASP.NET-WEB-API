@@ -56,6 +56,72 @@
         }
       }
     },
+    "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Presentation/Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Presentation/Presentation.csproj",
+        "projectName": "Presentation",
+        "projectPath": "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Presentation/Presentation.csproj",
+        "packagesPath": "/home/watchm1/.nuget/packages/",
+        "outputPath": "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Presentation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/watchm1/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/Services.csproj": {
+                "projectPath": "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -174,6 +240,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -217,6 +289,9 @@
             "projectReferences": {
               "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/Entities.csproj": {
                 "projectPath": "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/Entities.csproj"
+              },
+              "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Presentation/Presentation.csproj": {
+                "projectPath": "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Presentation/Presentation.csproj"
               },
               "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/Repositories.csproj": {
                 "projectPath": "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Repositories/Repositories.csproj"
