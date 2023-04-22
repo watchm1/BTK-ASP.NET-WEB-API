@@ -1,0 +1,17 @@
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/bin/Release/net6.0/Services.deps.json
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/bin/Release/net6.0/Services.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/bin/Release/net6.0/ref/Services.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/bin/Release/net6.0/Services.pdb
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/bin/Release/net6.0/Entities.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/bin/Release/net6.0/Repositories.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/bin/Release/net6.0/Entities.pdb
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/bin/Release/net6.0/Repositories.pdb
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/obj/Release/net6.0/Services.csproj.AssemblyReference.cache
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/obj/Release/net6.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/obj/Release/net6.0/Services.AssemblyInfoInputs.cache
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/obj/Release/net6.0/Services.AssemblyInfo.cs
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/obj/Release/net6.0/Services.csproj.CoreCompileInputs.cache
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/obj/Release/net6.0/Services.csproj.CopyComplete
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/obj/Release/net6.0/Services.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/obj/Release/net6.0/ref/Services.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/obj/Release/net6.0/Services.pdb

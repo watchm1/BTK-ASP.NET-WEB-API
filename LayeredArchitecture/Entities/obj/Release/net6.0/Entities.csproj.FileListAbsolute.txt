@@ -1,0 +1,12 @@
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/bin/Release/net6.0/Entities.deps.json
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/bin/Release/net6.0/Entities.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/bin/Release/net6.0/ref/Entities.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/bin/Release/net6.0/Entities.pdb
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/obj/Release/net6.0/Entities.csproj.AssemblyReference.cache
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/obj/Release/net6.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/obj/Release/net6.0/Entities.AssemblyInfoInputs.cache
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/obj/Release/net6.0/Entities.AssemblyInfo.cs
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/obj/Release/net6.0/Entities.csproj.CoreCompileInputs.cache
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/obj/Release/net6.0/Entities.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/obj/Release/net6.0/ref/Entities.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Entities/obj/Release/net6.0/Entities.pdb
