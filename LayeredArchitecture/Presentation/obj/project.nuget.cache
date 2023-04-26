@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Br1yfzSFHFIneK36ynHOwtd+9AAkbQds/H8R0tnq9CMoseXz5GqhnUT8HeF038R8iPzoFjXs0tbol+qlfXeALA==",
+  "dgSpecHash": "8M7S6lUPFpQhT/fpHtZUSRLC82jC0z64mxb7aD7ounzwvFU8g2pbK6nZCUSI0tTFX7lQy3OYVoTUgq1cHm8IUg==",
   "success": true,
   "projectFilePath": "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Presentation/Presentation.csproj",
   "expectedPackageFiles": [
+    "/home/watchm1/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/watchm1/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/watchm1/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/home/watchm1/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "/home/watchm1/.nuget/packages/microsoft.aspnetcore.authorization/2.2.0/microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

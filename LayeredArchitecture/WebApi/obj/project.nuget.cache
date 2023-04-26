@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QkEWlYS3PulDtJJiWNWsx/bibdPJTkRRyVXs1q8CqlXjid6ICeEL1HQUxTokdFRxzSbnp8CuBAOQ2oGpon5FTw==",
+  "dgSpecHash": "5Q1ieTyCKbx3PuuKHoYo5NVnpOf2ZCEzkUoIeOlFPd40x0pcwX/gOLFx4rRYeg5fBSVPFXnSdeLe55XsvUSAzw==",
   "success": true,
   "projectFilePath": "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
+    "/home/watchm1/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/watchm1/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/watchm1/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/watchm1/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/home/watchm1/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
