@@ -62,3 +62,5 @@
 /home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/nlog.config
 /home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/NLog.dll
 /home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/NLog.Extensions.Logging.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/AutoMapper.dll
+/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

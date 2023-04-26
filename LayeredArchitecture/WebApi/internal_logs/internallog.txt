@@ -34,3 +34,43 @@
 2023-04-22 08:59:57.2539 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/nlog.config
 2023-04-22 09:04:37.7340 Info AppDomain Shutting down. LogFactory closing...
 2023-04-22 09:04:37.7487 Info LogFactory has been closed.
+2023-04-26 12:39:27.7753 Info Message Template Auto Format enabled
+2023-04-26 12:39:28.0941 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-26 12:39:28.1301 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/nlog.config
+2023-04-26 12:45:23.2637 Info AppDomain Shutting down. LogFactory closing...
+2023-04-26 12:45:23.2849 Info LogFactory has been closed.
+2023-04-26 12:45:31.5087 Info Message Template Auto Format enabled
+2023-04-26 12:45:31.5998 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-26 12:45:31.6337 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/nlog.config
+2023-04-26 12:46:41.1077 Info AppDomain Shutting down. LogFactory closing...
+2023-04-26 12:46:41.1199 Info LogFactory has been closed.
+2023-04-26 12:46:57.8788 Info Message Template Auto Format enabled
+2023-04-26 12:46:57.9821 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-26 12:46:58.0173 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/nlog.config
+2023-04-26 12:52:10.1433 Info AppDomain Shutting down. LogFactory closing...
+2023-04-26 12:52:10.1638 Info LogFactory has been closed.
+2023-04-26 12:52:21.4279 Info Message Template Auto Format enabled
+2023-04-26 12:52:21.5216 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-26 12:52:21.5567 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/nlog.config
+2023-04-26 12:52:58.1518 Info AppDomain Shutting down. LogFactory closing...
+2023-04-26 12:52:58.1664 Info LogFactory has been closed.
+2023-04-26 12:53:31.3751 Info Message Template Auto Format enabled
+2023-04-26 12:53:31.4671 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-26 12:53:31.5019 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/nlog.config
+2023-04-26 12:54:45.8612 Info AppDomain Shutting down. LogFactory closing...
+2023-04-26 12:54:45.8716 Info LogFactory has been closed.
+2023-04-26 12:54:54.7922 Info Message Template Auto Format enabled
+2023-04-26 12:54:54.8950 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-26 12:54:54.9317 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/nlog.config
+2023-04-26 12:55:22.8348 Info AppDomain Shutting down. LogFactory closing...
+2023-04-26 12:55:22.8422 Info LogFactory has been closed.
+2023-04-26 12:55:28.2768 Info Message Template Auto Format enabled
+2023-04-26 12:55:28.3700 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-26 12:55:28.4168 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/nlog.config
+2023-04-26 13:06:47.6128 Info AppDomain Shutting down. LogFactory closing...
+2023-04-26 13:06:47.6207 Info LogFactory has been closed.
+2023-04-26 13:06:56.9814 Info Message Template Auto Format enabled
+2023-04-26 13:06:57.0723 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-04-26 13:06:57.1067 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/WebApi/nlog.config
+2023-04-26 13:08:31.4808 Info AppDomain Shutting down. LogFactory closing...
+2023-04-26 13:08:31.4881 Info LogFactory has been closed.

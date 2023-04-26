@@ -60,6 +60,7 @@ public class BooksController : ControllerBase
     public IActionResult PartiallyUpdateOneBook([FromRoute(Name = "id")] int id, [FromBody]JsonPatchDocument<Book> bookPatch)
     {
         var entity = _manager.BookService.GetOneBook(id, true);
+        
         bookPatch.ApplyTo(entity);
         _manager.BookService.UpdateOneBook(id, new BookDtoForUpdate(entity.Id, entity.Title, entity.Price), true);
         return NoContent();

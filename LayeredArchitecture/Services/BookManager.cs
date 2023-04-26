@@ -19,9 +19,10 @@ public class BookManager : IBookService
         _mapper = mapper;
     }
 
-    public IEnumerable<Book> GetAllBook(bool trackChanges)
+    public IEnumerable<BookDto> GetAllBook(bool trackChanges)
     {
-        return _manager.BookRepository.GetAllBooks(trackChanges);
+        var books = _manager.BookRepository.GetAllBooks(trackChanges);
+        return _mapper.Map<IEnumerable<BookDto>>(books);
     }
 
     public Book? GetOneBook(int id, bool trackChanges)
