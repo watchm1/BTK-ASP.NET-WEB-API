@@ -25,19 +25,19 @@ public class BookManager : IBookService
         return _mapper.Map<IEnumerable<BookDto>>(books);
     }
 
-    public Book? GetOneBook(int id, bool trackChanges)
+    public BookDto? GetOneBook(int id, bool trackChanges)
     {
         var book = _manager.BookRepository.GetOneBook(id, trackChanges); 
         if (book == null)
             throw new BookNotFound(id);
-        return book;
+        return _mapper.Map<BookDto>(book);
     }
 
-    public Book CreateOneBook(Book book)
+    public BookDto CreateOneBook(BookDtoForInsertion book)
     {
-        _manager.BookRepository.CreateOneBook(book);
+        _manager.BookRepository.CreateOneBook(_mapper.Map<Book>(book));
         _manager.Save();
-        return book;
+        return _mapper.Map<BookDto>(book);
     }
 
     public void UpdateOneBook(int id, BookDtoForUpdate bookDto, bool trackChanges)
@@ -58,6 +58,21 @@ public class BookManager : IBookService
         if (entity is null)
             throw new BookNotFound(id);
         _manager.BookRepository.DeleteOneBook(entity);
+        _manager.Save();
+    }
+
+    public (BookDtoForUpdate bookDtoForUpdate, Book book) GetOneBookForPatch(int id, bool trackChanges)
+    {
+        var book = _manager.BookRepository.GetOneBook(id, trackChanges);
+        if (book is null)
+            throw new BookNotFound(id);
+        var bookDtoForUpdate = _mapper.Map<BookDtoForUpdate>(book);
+        return (bookDtoForUpdate, book);
+    }
+
+    public void SaveChangesForPatch(BookDtoForUpdate bookDtoForUpdate, Book book)
+    {
+        _mapper.Map(bookDtoForUpdate, book);
         _manager.Save();
     }
 }

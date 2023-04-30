@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using NLog;
 using Presentation;
 using Services.Contracts;
@@ -14,6 +15,13 @@ builder.Services.AddControllers(
         config.ReturnHttpNotAcceptable = true;
     }).AddCustomCsvFormetter()
     .AddXmlDataContractSerializerFormatters().AddApplicationPart(typeof(AssemblyReference).Assembly).AddNewtonsoftJson();
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
+
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

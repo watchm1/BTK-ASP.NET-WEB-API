@@ -6,3 +6,7 @@ public record BookDto
     public String? Title { get; set; }
     public decimal Price { get; set; }
 };
+
+public record BookDtoForInsertion : BookDtoForManipulation
+{
+}

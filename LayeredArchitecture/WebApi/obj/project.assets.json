@@ -1046,6 +1046,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.JsonPatch": "7.0.5",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.16",
           "Services": "1.0.0"
         },
         "compile": {
@@ -2472,7 +2473,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Entities >= 1.0.0",
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0",
@@ -2535,10 +2535,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
-            "target": "Package",
-            "version": "[6.0.16, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
