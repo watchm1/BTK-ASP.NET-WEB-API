@@ -2,6 +2,7 @@ using AutoMapper;
 using Entities.DataTransferObjects;
 using Entities.Exceptions;
 using Entities.Models;
+using Entities.RequestFeatures;
 using Repositories.Contracts;
 using Services.Contracts;
 
@@ -19,17 +20,16 @@ public class BookManager : IBookService
         _mapper = mapper;
     }
 
-    public async Task<IEnumerable<BookDto>> GetAllBookAsync(bool trackChanges)
+    public async Task<(IEnumerable<BookDto>, MetaData metaData)> GetAllBookAsync(BookParameters bookParameters,bool trackChanges)
     {
-        var books = await _manager.BookRepository.GetAllBookAsync(trackChanges);
-        return _mapper.Map<IEnumerable<BookDto>>(books);
+        var booksWithMetaData = await _manager.BookRepository.GetAllBookAsync(bookParameters, trackChanges);
+        var booksDtos = _mapper.Map<IEnumerable<BookDto>>(booksWithMetaData);
+        return (booksDtos, booksWithMetaData.MetaData);
     }
 
     public async Task<BookDto> GetOneBookAsync(int id, bool trackChanges)
     {
-        var book = await _manager.BookRepository.GetOneBookAsync(id, trackChanges); 
-        if (book == null)
-            throw new BookNotFound(id);
+        var book = await CheckExists(id, trackChanges);
         return _mapper.Map<BookDto>(book);
     }
 
@@ -42,9 +42,7 @@ public class BookManager : IBookService
 
     public async Task UpdateOneBookAsync(int id, BookDtoForUpdate bookDto, bool trackChanges)
     {
-        var entity = await _manager.BookRepository.GetOneBookAsync(id, trackChanges);
-        if (entity is null)
-            throw new BookNotFound(id);
+        var entity = await CheckExists(id, trackChanges);
         // entity.Title = book.Title;
         // entity.Price = book.Price;
         entity = _mapper.Map<Book>(bookDto);
@@ -54,18 +52,14 @@ public class BookManager : IBookService
 
     public async Task DeleteOneBookAsync(int id, bool trackChanges)
     {
-        var entity =await _manager.BookRepository.GetOneBookAsync(id, trackChanges);
-        if (entity is null)
-            throw new BookNotFound(id);
+        var entity = await CheckExists(id, trackChanges);
         _manager.BookRepository.DeleteOneBook(entity);
         await _manager.SaveAsync();
     }
 
     public async Task<(BookDtoForUpdate bookDtoForUpdate, Book book)> GetOneBookForPatchAsync(int id, bool trackChanges)
     {
-        var book = await _manager.BookRepository.GetOneBookAsync(id, trackChanges);
-        if (book is null)
-            throw new BookNotFound(id);
+        var book = await CheckExists(id, trackChanges);
         var bookDtoForUpdate = _mapper.Map<BookDtoForUpdate>(book);
         return (bookDtoForUpdate, book);
     }
@@ -74,5 +68,13 @@ public class BookManager : IBookService
     {
         _mapper.Map(bookDtoForUpdate, book);
         await _manager.SaveAsync();
+    }
+
+    private async Task<Book> CheckExists(int id, bool trackChanges)
+    {
+        var entity =await _manager.BookRepository.GetOneBookAsync(id, trackChanges);
+        if (entity is null)
+            throw new BookNotFound(id);
+        return entity;
     }
 }

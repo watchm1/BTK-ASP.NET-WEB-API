@@ -11,6 +11,7 @@ public class MappingProfile : Profile
         CreateMap<BookDtoForUpdate, Book>().ReverseMap();
         CreateMap<Book, BookDto>();
         CreateMap<BookDtoForInsertion, Book>();
-        
+        CreateMap<BookDtoForInsertion, BookDto>().ReverseMap();
+
     }
 }

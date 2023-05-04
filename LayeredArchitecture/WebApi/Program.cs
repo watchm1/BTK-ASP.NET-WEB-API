@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using NLog;
 using Presentation;
+using Presentation.ActionFilters;
 using Services.Contracts;
 using WebApi.Extensions;
 
@@ -15,6 +16,8 @@ builder.Services.AddControllers(
         config.ReturnHttpNotAcceptable = true;
     }).AddCustomCsvFormetter()
     .AddXmlDataContractSerializerFormatters().AddApplicationPart(typeof(AssemblyReference).Assembly).AddNewtonsoftJson();
+
+builder.Services.ConfigureActionFilters();
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true;
@@ -30,7 +33,7 @@ builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
 builder.Services.AddAutoMapper(typeof(Program));
-
+builder.Services.ConfigureCors();
 
 var app = builder.Build();
 var logger = app.Services.GetRequiredService<ILoggerService>();
