@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5Ard7JsXZgZk7i/irFATq9cXoYv1oUBDX8Q2Rc+dqBKrp3/yR6YEaNuWSvDTPnJ+kVh8QYTuy1VpocVM7s0lPg==",
+  "dgSpecHash": "kLqY/ZWAXcAc8YxhKdsdQcDfJJ5OVUxs56mAzk7CC0HMb1BnWzOA+p1HJQ/ABfGXYKrMihOyxS2YKLn+9xeXyw==",
   "success": true,
   "projectFilePath": "/home/watchm1/Desktop/projects/BTK-ASP.NET-WEB-API/LayeredArchitecture/Services/Services.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "/home/watchm1/.nuget/packages/nlog/5.1.3/nlog.5.1.3.nupkg.sha512",
     "/home/watchm1/.nuget/packages/nlog.extensions.logging/5.2.3/nlog.extensions.logging.5.2.3.nupkg.sha512",
     "/home/watchm1/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
+    "/home/watchm1/.nuget/packages/system.linq.dynamic.core/1.3.2/system.linq.dynamic.core.1.3.2.nupkg.sha512",
     "/home/watchm1/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
