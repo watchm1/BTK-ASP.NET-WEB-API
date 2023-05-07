@@ -22,6 +22,8 @@ public class BookManager : IBookService
 
     public async Task<(IEnumerable<BookDto>, MetaData metaData)> GetAllBookAsync(BookParameters bookParameters,bool trackChanges)
     {
+        if (!bookParameters.ValiPriceRange)
+            throw new BadRequestException.PriceOutOfRangeBadRequestException();
         var booksWithMetaData = await _manager.BookRepository.GetAllBookAsync(bookParameters, trackChanges);
         var booksDtos = _mapper.Map<IEnumerable<BookDto>>(booksWithMetaData);
         return (booksDtos, booksWithMetaData.MetaData);
